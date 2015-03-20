@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Helvetica Neue', arial, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 .header {
   position: fixed;
@@ -70,7 +70,21 @@ body {
 }
 
 .page-section#slate {
-  background: url(../images/slate.jpg) bottom center no-repeat;
+  background: url(../images/abouttrubu.jpg) bottom center no-repeat;
+}
+
+#slate{
+  color: #fff;
+}
+
+a>img{
+  cursor: pointer;
+  cursor: hand;
+  opacity: .8;
+}
+
+a>img:hover {
+  opacity: 1;
 }
 
 .page-section#abouttrubu {
@@ -113,6 +127,17 @@ body {
 }
 hr {border-color: #ddd;}
 
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    float: left;
+}
+
+.modal-body{
+  color: black;
+}
+
 @media (min-width: 768px) {
   .header .navbar-brand {
     padding-left: 0;
@@ -121,6 +146,7 @@ hr {border-color: #ddd;}
     float: right;
   }
 }
+
 @media (max-width: 480px) {
   .page-section h1 {
     font-size: 3em;
@@ -131,5 +157,30 @@ hr {border-color: #ddd;}
   .page-section p {
     font-size: 1em;
     margin: 0 0 20px;
+  }
+  img {
+    max-width: 150px;
+    height: auto;
+    width: auto\9; /* ie8 */
+    margin: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  .page-section h1 {
+    font-size: 3em;
+  }
+  .page-section h2 {
+    font-size: 2em;
+  }
+  .page-section p {
+    font-size: 1em;
+    margin: 0 0 20px;
+  }
+  img {
+    max-width: 200px;
+    height: auto;
+    width: auto\9; /* ie8 */
+    margin: 10px;
   }
 }
