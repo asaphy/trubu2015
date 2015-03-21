@@ -68,9 +68,7 @@ body {
 }
 
 .page-section#slate {
-/*  background: url(../images/abouttrubu.jpg) bottom center no-repeat;
-*/    background-color: black;
-
+  background: url(../images/abouttrubu.jpg) bottom center no-repeat;
 }
 
 .page-section#slate {
@@ -103,10 +101,14 @@ a>img:hover {
   font-weight: 400;
 }
 
-.page-section#abouttrubu {
-/*  background: url(../images/abouttrubu.jpg) bottom center no-repeat;
-*/    background-color: black;
+#tap{
+  text-align: center;
+  margin-top: 10%;
+  font-size: 24px;
+}
 
+.page-section#abouttrubu {
+  background: url(../images/abouttrubu.jpg) bottom center no-repeat;
 }
 
 #abouttrubu{
@@ -126,8 +128,7 @@ a>img:hover {
 }
 
 .page-section#videos {
-/*  background: url(../images/videos.jpg) top center no-repeat;
-*/  background-color: black;
+  background: url(../images/videos.jpg) top center no-repeat;
 }
 .video-frame{
   text-align: center;
@@ -137,14 +138,10 @@ iframe{
 
 }
 .page-section#endorsements {
-/*  background: url(../images/endorsements.jpg) top center no-repeat;
-*/    background-color: black;
-
+  background: url(../images/endorsements.jpg) top center no-repeat;
 }
 .page-section#contactus {
-/*  background: url(../images/contactus.jpg) top center no-repeat;
-*/    background-color: black;
-
+  background: url(../images/contactus.jpg) top center no-repeat;
 }
 .btn {
   font-weight: 200;
@@ -184,12 +181,61 @@ img {
   color: black;
 }
 
+@media (max-width: 991px) {
+  .col-md-3{
+    display: inline-block;
+    width: 49%;
+  }
+  .row{
+    width: 100%;
+    margin-right: 10%;
+  }
+  .slate-text{
+    display: inline-block;
+    text-align: center;
+    margin-left: 35px;
+  }
+
+  .page-section h1 {
+    font-size: 3em;
+  }
+  .page-section h2 {
+    font-size: 2em;
+  }
+  .page-section p {
+    font-size: 1em;
+    margin: 0 0 20px;
+  }
+  img {
+    max-width: 200px;
+    height: auto;
+    width: auto\9;
+    margin: 10px;
+  }
+  #marwa{
+    margin:0;
+  }
+}
+
 @media (min-width: 768px) {
   .header .navbar-brand {
     padding-left: 0;
   }
   .navbar-nav {
     float: right;
+  }
+  .col-md-3{
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .col-md-3>.slate-text{
+    font-size: 16px;
+    margin-left: 60px;
+  }
+  #marwa{
+    margin-left: 40px;
   }
 }
 
@@ -210,23 +256,15 @@ img {
     width: auto\9; /* ie8 */
     margin: 10px;
   }
-}
-
-@media (max-width: 991px) {
-  .page-section h1 {
-    font-size: 3em;
+  .col-md-3{
+    display: inline-block;
+    width: 100%;
   }
-  .page-section h2 {
-    font-size: 2em;
+  .col-md-3>.slate-text{
+    margin-top: 50px;
+    font-size: 16px;
   }
-  .page-section p {
-    font-size: 1em;
-    margin: 0 0 20px;
-  }
-  img {
-    max-width: 200px;
-    height: auto;
-    width: auto\9; /* ie8 */
-    margin: 10px;
+  #marwa{
+    margin-top: 50px;
   }
 }
