@@ -21,6 +21,13 @@ $(document).ready(function() {
 
   div.css('height', width*.562);
 
+  $(".more-endorsements").hide();
+
+
+  $("#moreEndorsements").click(function(){
+    $(".more-endorsements").show(1000);
+    $("#moreEndorsements").hide();
+  });
 });
 // scroll function
 function scrollToID(id, speed){

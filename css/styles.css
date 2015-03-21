@@ -139,7 +139,25 @@ iframe{
 }
 .page-section#endorsements {
   background: url(../images/endorsements.jpg) top center no-repeat;
+  color: white;
 }
+
+.endorsement-text-right{
+  text-align: right;
+}
+
+.endorsement-section{
+  margin-bottom: 30px;
+}
+
+#moreEndorsements{
+  cursor: pointer;
+  cursor: hand;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 100;
+}
+
 .page-section#contactus {
   background: url(../images/contactus.jpg) top center no-repeat;
 }
@@ -179,6 +197,11 @@ img {
 
 .modal-body{
   color: black;
+}
+
+#myModalLabel{
+  color: black;
+  text-align: center;
 }
 
 @media (max-width: 991px) {
