@@ -269,3 +269,34 @@ img {
     margin: 50px auto 0 10px;
   }
 }
+
+@media only screen and (max-width: 399px) {
+  .page-section h1 {
+    font-size: 3em;
+  }
+  .page-section h2 {
+    font-size: 2em;
+  }
+  .page-section p {
+    font-size: 1em;
+    margin: 0 0 20px;
+  }
+  img {
+    max-width: 150px;
+    height: auto;
+    width: auto\9; /* ie8 */
+    margin: 10px;
+  }
+  .col-md-3{
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+  }
+  .col-md-3>.slate-text{
+    font-size: 16px;
+    margin: 0 auto 0 0;
+  }
+  #marwa{
+    margin: 0 auto 0 0;
+  }
+}
