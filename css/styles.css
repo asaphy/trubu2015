@@ -138,8 +138,10 @@ iframe{
 
 }
 .page-section#endorsements {
-  background: url(../images/endorsements.jpg) top center no-repeat;
-  color: white;
+/*  background: url(../images/endorsements.jpg) top center no-repeat;
+*/
+  color: darkgray;
+  background-color: white;
 }
 
 .endorsement-text-right{
@@ -161,6 +163,17 @@ iframe{
 .page-section#contactus {
   background: url(../images/contactus.jpg) top center no-repeat;
 }
+
+.contactus-info{
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}
+
+.social-media{
+  display: inline-block;
+}
+
 .btn {
   font-weight: 200;
 }
@@ -202,6 +215,11 @@ img {
 #myModalLabel{
   color: black;
   text-align: center;
+}
+
+.copyright{
+  text-align: center;
+  margin: 20px 0 20px 0;
 }
 
 @media (max-width: 991px) {
