@@ -62,15 +62,21 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+    background-color: black;
+
 }
 }
 
 .page-section#slate {
-  background: url(../images/abouttrubu.jpg) bottom center no-repeat;
+/*  background: url(../images/abouttrubu.jpg) bottom center no-repeat;
+*/    background-color: black;
+
 }
 
 .page-section#slate {
-  background: url(../images/abouttrubu.jpg) bottom center no-repeat;
+/*  background: url(../images/abouttrubu.jpg) bottom center no-repeat;
+*/    background-color: black;
+
 }
 
 #slate{
@@ -93,18 +99,52 @@ a>img:hover {
   opacity: 1;
 }
 
+.modal{
+  font-weight: 400;
+}
+
 .page-section#abouttrubu {
-  background: url(../images/abouttrubu.jpg) bottom center no-repeat;
+/*  background: url(../images/abouttrubu.jpg) bottom center no-repeat;
+*/    background-color: black;
+
+}
+
+#abouttrubu{
+  color: white;
+}
+
+.bullet-points{
+  font-size: 32px;
+  font-weight: 200;
+}
+
+.quote{
+  font-weight: 100;
+  font-size: 40px;
+  margin: 15px 0;
+  text-align: center;
 }
 
 .page-section#videos {
-  background: url(../images/videos.jpg) top center no-repeat;
+/*  background: url(../images/videos.jpg) top center no-repeat;
+*/  background-color: black;
+}
+.video-frame{
+  text-align: center;
+}
+
+iframe{
+
 }
 .page-section#endorsements {
-  background: url(../images/endorsements.jpg) top center no-repeat;
+/*  background: url(../images/endorsements.jpg) top center no-repeat;
+*/    background-color: black;
+
 }
 .page-section#contactus {
-  background: url(../images/contactus.jpg) top center no-repeat;
+/*  background: url(../images/contactus.jpg) top center no-repeat;
+*/    background-color: black;
+
 }
 .btn {
   font-weight: 200;

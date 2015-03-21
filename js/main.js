@@ -15,6 +15,12 @@ $(document).ready(function() {
     event.preventDefault();
     $('#main-nav').toggleClass("open");
   });
+  //video resizing
+  var div = $('#video1');
+  var width = div.width();
+
+  div.css('height', width*.562);
+
 });
 // scroll function
 function scrollToID(id, speed){
