@@ -294,10 +294,10 @@ img {
   }
   .col-md-3>.slate-text{
     font-size: 16px;
-    margin: 0 auto 0 0;
+    margin: 10px 10px 0 0;
     float: right;
   }
   #marwa{
-    margin: 0 auto 0 0;
+    margin: 10px 0px 0 10px;
   }
 }
