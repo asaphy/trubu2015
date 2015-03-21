@@ -251,7 +251,7 @@ img {
     margin: 0 0 20px;
   }
   img {
-    max-width: 100px;
+    max-width: 150px;
     height: auto;
     width: auto\9; /* ie8 */
     margin: 10px;
@@ -263,9 +263,9 @@ img {
   }
   .col-md-3>.slate-text{
     font-size: 16px;
-    float: right;
+    margin: 50px auto 0 30px;
   }
   #marwa{
-    margin: 0;
+    margin: 50px auto 0 10px;
   }
 }
