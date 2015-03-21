@@ -263,8 +263,9 @@ img {
   .col-md-3>.slate-text{
     margin-top: 50px;
     font-size: 16px;
+    float: right;
   }
   #marwa{
-    margin-top: 50px;
+    margin: 0;
   }
 }
