@@ -87,10 +87,14 @@ body {
   font-size: 24px;
 }
 
-a>img{
+.col-md-3>a>img{
   cursor: pointer;
   cursor: hand;
-  opacity: .8;
+  opacity: 0.8;
+}
+
+#main-nav{
+  background-color: white;
 }
 
 a>img:hover {
@@ -208,6 +212,22 @@ img {
     float: left;
 }
 
+#homelink{
+  padding: 0px;
+}
+
+.header-nav{
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-right: 0px;
+  padding-right: 0px;
+  max-width: 100%;
+}
+
+.navbar{
+  width: 100%;
+}
+
 .modal-body{
   color: black;
 }
@@ -221,6 +241,8 @@ img {
   text-align: center;
   margin: 20px 0 20px 0;
 }
+
+a:visited{color:#000 !important;}
 
 @media (max-width: 991px) {
   .col-md-3{
@@ -256,9 +278,32 @@ img {
   #marwa{
     margin:0;
   }
+  .header-nav{
+    max-width: 100%;
+  }
+  #homelink>img{
+    margin: 0;
+  }
 }
 
 @media (min-width: 768px) {
+  .navbar-inverse .navbar-nav>li>a{
+    padding-top: 15px;
+    font-weight: 100;
+    font-size: 18px;
+    color: black;
+  }
+
+  .navbar-inverse .navbar-nav>li>a:hover{
+    color: black;
+  }
+  .navbar-inverse {
+    background-color: #fff;
+  }
+
+  .header-nav{
+    max-width: 100%;
+  }
   .header .navbar-brand {
     padding-left: 0;
   }

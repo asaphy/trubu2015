@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Tru Bu 2015</title>
+	<title>True Bu 2015</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" href="css/styles.css" />
 	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
@@ -10,8 +10,8 @@
 
 <body>
 <div class="header">
-	<div class="container">
-		<nav class="navbar navbar-inverse" role="navigation">
+	<div class="container header-nav">
+		<nav class="navbar navbar-inverse" role="navigation" id="togglenav">
         	<div class="navbar-header">
 	            <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
 		            <span class="sr-only">Toggle navigation</span>
@@ -19,13 +19,13 @@
 		            <span class="icon-bar"></span>
 		            <span class="icon-bar"></span>
 	            </button>
-	            <a href="#" class="navbar-brand scroll-top">Home</a>
+	            <a href="#" class="navbar-brand scroll-top" id="homelink"><img src="images/logo_handdrawn.png" alt="Home" width=126 height=54></a>
         	</div>
         	<!--/.navbar-header-->
 	        <div id="main-nav" class="collapse navbar-collapse">
 	            <ul class="nav navbar-nav">
 		            <li><a href="#" class="scroll-link" data-id="slate">Meet the Slate</a></li>
-					<li><a href="#" class="scroll-link" data-id="abouttrubu">About Tru BU</a></li>
+					<li><a href="#" class="scroll-link" data-id="abouttrubu">About True BU</a></li>
 					<li><a href="#" class="scroll-link" data-id="videos">Videos</a></li>
 					<li><a href="#" class="scroll-link" data-id="endorsements">Endorsements</a></li>
 					<li><a href="#" class="scroll-link" data-id="contactus">Contact Us</a></li>
@@ -41,7 +41,7 @@
 
 <div class="page-section intro">
 	<div class="container">
-		<h1>Tru BU<br/><span>some fancy quote</span></h1>
+		<h1>True BU<br/><span>some fancy quote</span></h1>
 	</div>
 	<!--/.container-->
 </div>
@@ -97,12 +97,12 @@
 
 	      <div class="col-md-3">
 	      	<a data-toggle="modal" data-target="#melModal">
-					  <img src="images/mel_head.png" alt="Mel LastName"/>
+					  <img src="images/mel_head.png" alt="Mel Finau"/>
 					</a>
 					<div class="slate-text">
-	 					Mel LastName<br/>
+	 					Mel Finau<br/>
 	 					Vice President<br/>
-	 					??? '??<br/>
+	 					CAS '17<br/>
 	 				</div>
 	      </div>
 
@@ -112,12 +112,12 @@
 				    <div class="modal-content">
 				      <div class="modal-header">
 				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				        <h4 class="modal-title" id="myModalLabel">Mel LastName // Vice President</h4>
+				        <h4 class="modal-title" id="myModalLabel">Mel Finau // Vice President</h4>
 				      </div>
 				      <div class="modal-body">
 				      	<div class="row">
 				      		<div class="col-md-6">
-					  				<div><img src="images/mel_full.png" alt="Mel LastName"/></div>
+					  				<div><img src="images/mel_full.png" alt="Mel Finau"/></div>
 					  				</div>
 						  			<div class="col-md-6 modal-text">
 						  				Hi, I'm Mel, I'm pretty cool.<br/><br/>
@@ -128,7 +128,7 @@
 						  				<strong>Favorite Spot on Campus:</strong><br/>
 											Though I am not in SMG, my favorite spot on campus is SMG Pardee Library. It has great natural lighting, and if you snag one of the desks in the corner, its a great place to take a study break nap.<br/><br/>
 											<strong>Freshman Memory:</strong><br/>
-											Receiving a mini- Christmas Tree from Whole Foods during Student Food Rescue. I loved watching everyone’s reaction as I carried it down Comm Ave and brought it to all my classes!
+											Receiving a mini- Christmas Tree from Whole Foods during Student Food Rescue. I loved watching everyone's reaction as I carried it down Comm Ave and brought it to all my classes!
 										</div>
 						  		</div>
 				      </div>
@@ -141,12 +141,12 @@
 
 	      <div class="col-md-3">
 	      	<a data-toggle="modal" data-target="#marwaModal">
-					  <img src="images/marwa_head.png" alt="Marwa LastName"/>
+					  <img src="images/marwa_head.png" alt="Marwa Sayed"/>
 					</a>
 					<div class="slate-text" id="marwa">
-	 					Marwa LastName<br/>
+	 					Marwa Sayed<br/>
 	 					VP of Internal Affairs<br/>
-	 					??? '??<br/>
+	 					CAS '18<br/>
 	 				</div>
 	      </div>
 
@@ -156,23 +156,23 @@
 				    <div class="modal-content">
 				      <div class="modal-header">
 				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				        <h4 class="modal-title" id="myModalLabel">Marwa LastName // VP of Internal Affairs</h4>
+				        <h4 class="modal-title" id="myModalLabel">Marwa Sayed // VP of Internal Affairs</h4>
 				      </div>
 				      <div class="modal-body">
 				      	<div class="row">
 				      		<div class="col-md-6">
-					  				<div><img src="images/marwa_full.png" alt="Marwa LastName"/></div>
+					  				<div><img src="images/marwa_full.png" alt="Marwa Sayed"/></div>
 					  				</div>
 						  			<div class="col-md-6 modal-text">
 						  				Hi, I'm Marwa, I'm pretty neat.<br/><br/>
 						  				<strong>Hometown:</strong><br/>
 						  				Somewhere, Somewhere<br/><br/>
 						  				<strong>Favorite Song:</strong><br/>
-						  				??? <br/><br/>
+						  				Q.U.E.E.N. -Janelle Monae <br/><br/>
 						  				<strong>Favorite Spot on Campus:</strong><br/>
-											??? <br/><br/>
+											Dean's study lounge <br/><br/>
 											<strong>Freshman Memory:</strong><br/>
-											???
+											CGSA Birthday party!
 										</div>
 						  		</div>
 				      </div>
@@ -185,12 +185,12 @@
 
 	      <div class="col-md-3">
 	      	<a data-toggle="modal" data-target="#kimModal">
-					  <img src="images/kim_head.png" alt="Kim LastName"/>
+					  <img src="images/kim_head.png" alt="Kim Barzola"/>
 					</a>
 					<div class="slate-text">
-	 					Kim LastName<br/>
+	 					Kim Barzola<br/>
 	 					VP of Finance<br/>
-	 					??? '??<br/>
+	 					CAS '16<br/>
 	 				</div>
 	      </div>
 
@@ -200,12 +200,12 @@
 				    <div class="modal-content">
 				      <div class="modal-header">
 				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				        <h4 class="modal-title" id="myModalLabel">Kim LastName // VP of Finance</h4>
+				        <h4 class="modal-title" id="myModalLabel">Kim Barzola // VP of Finance</h4>
 				      </div>
 				      <div class="modal-body">
 				      	<div class="row">
 				      		<div class="col-md-6">
-					  				<div><img src="images/kim_full.png" alt="Kim LastName"/></div>
+					  				<div><img src="images/kim_full.png" alt="Kim Barzola"/></div>
 					  				</div>
 						  			<div class="col-md-6 modal-text">
 						  				Hi, I'm Kim, I'm pretty neat.<br/><br/>
@@ -375,7 +375,7 @@
 
 <div class="footer">
 	<div class="container">
-		<p class="copyright">&copy; 2015 TruBu. All Rights Reserved.</p>
+		<p class="copyright">&copy; 2015 True Bu. All Rights Reserved.</p>
 	</div>
 </div>
 <!--/.page-section-->
