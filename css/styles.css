@@ -259,10 +259,12 @@ img {
   .col-md-3{
     display: inline-block;
     width: 100%;
+    margin: 0;
   }
   .col-md-3>.slate-text{
     font-size: 16px;
     float: right;
+    margin: 0;
   }
   #marwa{
     margin: 0;
