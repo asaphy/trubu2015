@@ -23,7 +23,6 @@ $(document).ready(function() {
 
   $(".more-endorsements").hide();
 
-
   $("#moreEndorsements").click(function(){
     $(".more-endorsements").show(1000);
     $("#moreEndorsements").hide();
