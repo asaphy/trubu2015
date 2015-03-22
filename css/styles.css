@@ -55,14 +55,15 @@ body {
 .page-section p.lead {
   font-size: 1.8em;
 }
+
 .caption {
-  color: black;
+  color: #575757;
   padding: 10px 40px 20px 40px;
   font-size: 30px;
   /* Rectangle 1: */
   background: #fff;
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 .intro>.container{
@@ -95,7 +96,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-    background-color: black;
+  background-color: black;
 
 }
 }
@@ -145,7 +146,7 @@ a>img:hover {
 }
 
 .page-section#abouttrubu {
-  background: url(../images/jumping.png) bottom center no-repeat;
+  background: url(../images/jumping.png) top center;
   min-height: 700px;
 }
 
@@ -161,14 +162,14 @@ a>img:hover {
 .bullet-points li{
   font-size: 16px;
   font-weight: 400;
-  font-family: 'lato'
+  font-family: 'Lato'
   text-shadow: none;
-  color: black;
+  color: #575757;
 }
 
-.bullet-points>.caption{
-  width: 30%;
-  margin: 0 15px 0 15px;
+.caption{
+  margin: 0 15px 15px 15px;
+  color: #575757;
 }
 
 .quote{
@@ -212,7 +213,12 @@ iframe{
 }
 
 .page-section#contactus {
-  background: url(../images/contactus.jpg) top center no-repeat;
+  background: url(../images/join.png) top center no-repeat;
+  min-height: 570px;
+}
+
+#togglenav{
+  border-bottom: 1px lightgray solid;
 }
 
 .contactus-info{
@@ -223,6 +229,46 @@ iframe{
 
 .social-media{
   display: inline-block;
+}
+
+#joinstaff{
+  /* Rectangle 1: */
+  margin: 0 auto;
+  width: 300px;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
+  border-radius: 10px;
+  color: #575757;
+}
+
+#updates{
+  /* Rectangle 1: */
+  margin: 0 auto;
+  width: 300px;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
+  border-radius: 10px;
+  color: #575757;
+}
+
+#jointheteam{
+  margin: 20px auto 0 auto;
+  background: #008CD3;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
+  border-radius: 10px;
+  color: #fff;
+  width: 180px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#jointheteam:hover{
+  cursor: pointer;
+  cursor: hand;
+}
+
+#supporters{
+  font-size: 12px;
 }
 
 .btn {
@@ -291,7 +337,16 @@ img {
 
 a:visited{color:#000 !important;}
 
+@media (min-width: 992px){
+/*    .caption{
+      height: 300px;
+    }*/
+}
+
 @media (max-width: 991px) {
+  .bullet-points>.caption{
+    margin: 0 0 0 15px;
+  }
   .col-md-3{
     display: inline-block;
     width: 49%;
