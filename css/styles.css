@@ -562,7 +562,9 @@ a:visited{color:#000 !important;}
     padding: 5px;
   }
   #fb{
-    margin: 20px;
+    margin: 0px;
+  }
+  .social-media-links{
 
   }
   .social-media>a>img{
