@@ -562,7 +562,7 @@ a:visited{color:#000 !important;}
     padding: 5px;
   }
   #fb{
-    margin: 0px;
+    margin: 10px;
   }
   .social-media>a>img{
     width: 48px;
@@ -570,8 +570,8 @@ a:visited{color:#000 !important;}
   }
 
   #ig{
-    margin-top: -10px;
-    margin-left: -10px;
+    margin-top: -5px;
+    margin-left: -5px;
   }
 
   #upcomingdates{
