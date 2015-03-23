@@ -558,7 +558,7 @@ a:visited{color:#000 !important;}
     min-height: 550px;
   }
   #updates{
-    height: 400px;
+    height: 350px;
     padding: 5px;
   }
   #fb{
@@ -568,6 +568,12 @@ a:visited{color:#000 !important;}
     width: 48px;
     height: 48px;
   }
+
+  #ig{
+    margin-top: -10px;
+    margin-left: -10px;
+  }
+
   #upcomingdates{
     height: 400px;
     padding: 10px;
