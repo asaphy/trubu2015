@@ -381,6 +381,10 @@ img {
 
 a:visited{color:#000 !important;}
 
+.footer{
+  text-align: center;
+}
+
 @media (min-width: 992px){
 /*    .caption{
       height: 300px;
