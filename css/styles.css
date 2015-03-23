@@ -555,12 +555,17 @@ a:visited{color:#000 !important;}
     left: 20px;
   }
   .page-section.intro{
-    min-height: 600px;
+    min-height: 550px;
   }
   #updates{
     height: 400px;
+    padding: 5px;
+  }
+  #fb{
+    margin-right: 10px;
   }
   #upcomingdates{
     height: 400px;
+    padding: 5px;
   }
 }
