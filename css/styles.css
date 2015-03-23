@@ -244,22 +244,46 @@ iframe{
 #updates{
   /* Rectangle 1: */
   margin: 0 auto;
-  width: 300px;
   background: #fff;
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
   border-radius: 10px;
   color: #575757;
+  margin: 0 5% 20px 5%;
+  padding: 10px 10px 10px 10px;
+}
+
+#fb{
+  margin-right: 20px;
+}
+
+#upcomingdates{
+  /* Rectangle 1: */
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
+  border-radius: 10px;
+  color: #575757;
+  margin: 0 5% 0 5%;
+  padding: 10px 10px 10px 10px;
+  font-weight: 400;
+}
+
+.updatetitles{
+  font-size: 40px;
+}
+
+#jointeamwrapper{
+  margin: 100px auto 20px auto;
 }
 
 #jointheteam{
-  margin: 20px auto 0 auto;
+  display: inline;
   background: #008CD3;
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
   border-radius: 10px;
   color: #fff;
   width: 180px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 20px 10px 20px;
 }
 
 #jointheteam:hover{
@@ -269,6 +293,7 @@ iframe{
 
 #supporters{
   font-size: 12px;
+  margin-top: 100px;
 }
 
 .btn {
