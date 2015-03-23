@@ -558,18 +558,18 @@ a:visited{color:#000 !important;}
     min-height: 550px;
   }
   #updates{
-    height: 400px;
+    height: 500px;
     padding: 5px;
   }
   #fb{
     margin: 0px;
   }
   .social-media-links{
-
+    margin-bottom: 10px;
   }
   .social-media>a>img{
-    width: 48px;
-    height: 48px;
+    width: 64px;
+    height: 64px;
   }
   #upcomingdates{
     height: 400px;
