@@ -552,5 +552,9 @@ a:visited{color:#000 !important;}
   }
   .intro>.container{
     bottom: 20px;
+    left: 20px;
+  }
+  .page-section.intro{
+    min-height: 400px;
   }
 }
