@@ -44,9 +44,10 @@ body {
 .page-section#endorsements h2 {
   font-size: 3em;
   font-weight: 900;
-  color: black;
+  color: darkgray;
   margin: 0 0 30px;
 }
+
 .page-section p {
   font-size: 1.2em;
   font-weight: 200;
@@ -58,12 +59,12 @@ body {
 
 .caption {
   color: #575757;
-  padding: 10px 40px 20px 40px;
-  font-size: 30px;
+  padding: 10px 15px 20px 40px;
   /* Rectangle 1: */
-  background: #fff;
+  background: rgba(255,255,255,0.80);
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
   border-radius: 10px;
+  height: 350px;
 }
 
 .intro>.container{
@@ -75,14 +76,14 @@ body {
 .intro>.container>h1{
   margin: 0;
   font-size: 108px;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Lato', sans-serif;
 }
 
 .intro>.container>h3{
   margin: -20px 0 0 10px;
   color: white;
   font-size: 40px;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Lato', sans-serif;
   font-weight: 100;
 }
 
@@ -97,18 +98,17 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-color: black;
-
-}
 }
 
 .page-section#slate {
-  background: url(../images/abouttrubu.jpg) bottom center no-repeat;
+  background: url(../images/background.png) bottom center no-repeat;
+  background-size:cover;
 }
 
 .page-section#slate {
 /*  background: url(../images/abouttrubu.jpg) bottom center no-repeat;
-*/    background-color: black;
-
+*/    background-color: #222;
+  min-height: 675px;
 }
 
 #slate{
@@ -160,7 +160,7 @@ a>img:hover {
 }
 
 .bullet-points li{
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   font-family: 'Lato'
   text-shadow: none;
@@ -174,13 +174,14 @@ a>img:hover {
 
 .quote{
   font-weight: 100;
-  font-size: 40px;
-  margin: 100px 0 0 0;
+  font-size: 36px;
+  margin: 70px 0 0 0;
   text-align: center;
 }
 
 .page-section#videos {
-  background: url(../images/videos.jpg) top center no-repeat;
+/*  background: url(../images/videos.jpg) top center no-repeat;*/
+  background-color: #333333;
 }
 .video-frame{
   text-align: center;
@@ -194,10 +195,18 @@ iframe{
 */
   color: darkgray;
   background-color: white;
+  padding: 50px 0 0px 0;
+  min-height: 650px;
 }
 
 .endorsement-text-right{
   text-align: right;
+  display: inline-block;
+}
+
+#lindsey1{
+  float: right;
+  margin-left: 20px;
 }
 
 .endorsement-section{
@@ -214,7 +223,10 @@ iframe{
 
 .page-section#contactus {
   background: url(../images/join.png) top center no-repeat;
-  min-height: 570px;
+  min-height: 600px;
+  background-size:cover;
+  color: white;
+  min-height: 600px;
 }
 
 #togglenav{
@@ -229,13 +241,14 @@ iframe{
 
 .social-media{
   display: inline-block;
+  margin-top: 5%;
 }
 
 #joinstaff{
   /* Rectangle 1: */
   margin: 0 auto;
   width: 300px;
-  background: #fff;
+  background: rgba(255,255,255,0.50);
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
   border-radius: 10px;
   color: #575757;
@@ -244,12 +257,13 @@ iframe{
 #updates{
   /* Rectangle 1: */
   margin: 0 auto;
-  background: #fff;
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
   border-radius: 10px;
   color: #575757;
   margin: 0 5% 20px 5%;
   padding: 10px 10px 10px 10px;
+  background: rgba(255,255,255,0.50);
+  height: 300px;
 }
 
 #fb{
@@ -259,21 +273,26 @@ iframe{
 #upcomingdates{
   /* Rectangle 1: */
   margin: 0 auto;
-  background: #fff;
+  background: rgba(255,255,255,0.50);
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
   border-radius: 10px;
   color: #575757;
   margin: 0 5% 0 5%;
   padding: 10px 10px 10px 10px;
   font-weight: 400;
+  height: 300px;
 }
 
 .updatetitles{
   font-size: 40px;
 }
 
+.schedule{
+  margin-top: 10%;
+}
+
 #jointeamwrapper{
-  margin: 100px auto 20px auto;
+  margin: 50px auto 20px auto;
 }
 
 #jointheteam{
@@ -357,7 +376,7 @@ img {
 
 .copyright{
   text-align: center;
-  margin: 20px 0 20px 0;
+  margin: 3% 0 0 0;
 }
 
 a:visited{color:#000 !important;}
@@ -369,6 +388,15 @@ a:visited{color:#000 !important;}
 }
 
 @media (max-width: 991px) {
+  .caption{
+    height: auto;
+  }
+  #updates{
+    height: 250px;
+  }
+  .social-media{
+    margin-top: 0%;
+  }
   .bullet-points>.caption{
     margin: 0 0 0 15px;
   }
@@ -413,6 +441,12 @@ a:visited{color:#000 !important;}
   }
 }
 
+#moreendorsementssoon{
+  margin: 60px 0 20px 0;
+  text-align: center;
+  display: block;
+}
+
 @media (min-width: 768px) {
   .navbar-inverse .navbar-nav>li>a{
     padding-top: 15px;
@@ -453,6 +487,9 @@ a:visited{color:#000 !important;}
 }
 
 @media only screen and (max-width: 480px) {
+  .schedule{
+    margin-top: 0%;
+  }
   .page-section h1 {
     font-size: 3em;
   }
