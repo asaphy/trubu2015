@@ -555,6 +555,12 @@ a:visited{color:#000 !important;}
     left: 20px;
   }
   .page-section.intro{
-    min-height: 400px;
+    min-height: 600px;
+  }
+  #updates{
+    height: 400px;
+  }
+  #upcomingdates{
+    height: 400px;
   }
 }
