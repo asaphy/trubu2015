@@ -385,6 +385,10 @@ a:visited{color:#000 !important;}
   text-align: center;
 }
 
+#jointeamwrapper>a{
+  text-decoration: none;
+}
+
 @media (min-width: 992px){
 /*    .caption{
       height: 300px;
