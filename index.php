@@ -50,6 +50,7 @@ function email($to, $from_mail, $from_name, $subject, $message){
 	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
 	<link rel="icon" type="image/png" href="images/favicon.png" />
 </head>
 
@@ -105,23 +106,6 @@ function email($to, $from_mail, $from_name, $subject, $message){
 	 					Andrew Cho<br/>
 	 					President<br/>
 	 					CAS '16<br/>
-	 				</div>
-	 				<div class="slate-accomplishments row">
-	 				  <div class="col-md-6">
-		 					Projects and Positions:<br/>
-		 					Warren Towers Patio Project<br/>
-							Warren Towers RHA President 2012-2014<br/>
-							OEC RHA President<br/>
-							VSA Culture Show 2012-2015<br/>
-						</div>
-	 				  <div class="col-md-6">
-							Warren Towers Senator 2012-2013<br/>
-							Environmental Affairs Department Associate Director 2012-2014<br/>
-							No Waste November 2012<br/>
-							Environmental Coalition Leader 2013-2014<br/>
-							FYStaff 2013<br/>
-							Frontier Group Public Policy Think Tank Internship<br/>
-						</div>
 	 				</div>
 	      </div>
 
@@ -301,8 +285,43 @@ function email($to, $from_mail, $from_name, $subject, $message){
 				      </div>
 				    </div>
 				  </div>
-				</div>	    </div>
-	    <div id="tap">Tap our heads to learn more about us!</div>
+				</div>
+				</div>
+				<div class="positionsheld"> Positions we've held and what we've done:</div>
+				<div class="row center">
+					<div class="col-md-6">
+						<ul>
+							<li>Warren Towers Patio Project</li>
+							<li>Warren Towers RHA President 2012-2014</li>
+							<li>OEC RHA President</li>
+							<li>VSA Culture Show 2012-2015</li>
+							<li>Warren Towers Senator 2012-2013</li>
+							<li>Environmental Affairs Department Associate Director 2012-2014</li>
+							<li>No Waste November 2012</li>
+							<li>Environmental Coalition Leader 2013-2014</li>
+							<li>FYStaff 2013</li>
+							<li>Frontier Group Public Policy Think Tank Internship</li>
+							<li>Water Bottle Dispenser Initiative</li>
+							<li>Danielsen RHA senator 2014-2015</li>
+							<li>CSC Student Food Rescue Volunteer</li>
+						</ul>
+					</div>
+					<div class="col-md-6">
+						<ul>
+							<li>Kilachand Honors Student</li>
+							<li>Undergraduate Researcher</li>
+							<li>Adjuncts Union Support</li>
+							<li>Planned East Campus Carnival</li>
+							<li>Boston University Initiative for Literacy Development Tutor</li>
+							<li>Coming of Faith Internship</li>
+							<li>Kilachand RHA</li>
+							<li>#Food4Thought campaign (passed by Senate March 2015) currently being worked on with Dining Admin</li>
+							<li>President of BU Vegetarian Society 2014-2015</li>
+							<li>Representative for Environmental Leadership Network</li>
+							<li>Policy Intern at The Humane League (non-profit)</li>
+						</ul>
+					</div>
+				</div>
 	</div>
 	<!--/.container-->
 </div>
