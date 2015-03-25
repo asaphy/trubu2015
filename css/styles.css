@@ -223,10 +223,9 @@ iframe{
 
 .page-section#contactus {
   background: url(../images/join.png) top center no-repeat;
-  min-height: 600px;
   background-size:cover;
   color: white;
-  min-height: 600px;
+  min-height: 650px;
 }
 
 #togglenav{
@@ -263,7 +262,7 @@ iframe{
   margin: 0 5% 20px 5%;
   padding: 10px 10px 10px 10px;
   background: rgba(255,255,255,0.50);
-  height: 300px;
+  height: 400px;
 }
 
 #fb{
@@ -277,22 +276,17 @@ iframe{
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
   border-radius: 10px;
   color: #575757;
-  margin: 0 5% 0 5%;
-  padding: 10px 10px 10px 10px;
+  padding: 20px;
   font-weight: 400;
-  height: 300px;
+  height: 400px;
 }
 
 .updatetitles{
   font-size: 40px;
 }
 
-.schedule{
-  margin-top: 10%;
-}
-
 #jointeamwrapper{
-  margin: 50px auto 20px auto;
+  margin: 70px auto 20px auto;
 }
 
 #jointheteam{
@@ -387,6 +381,16 @@ a:visited{color:#000 !important;}
 
 #jointeamwrapper>a{
   text-decoration: none;
+}
+
+.endorse-form{
+  text-align: left;
+  font-size: 20px;
+}
+
+#submitButton{
+  font-weight: 400;
+  margin: 10px auto 0 auto;
 }
 
 @media (min-width: 992px){
