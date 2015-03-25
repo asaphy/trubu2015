@@ -247,7 +247,7 @@ function email($to, $from_mail, $from_name, $subject, $message){
 					<div class="slate-text">
 	 					Kimberly Barzola<br/>
 	 					VP of Finance<br/>
-	 					CAS '16<br/>
+	 					CAS '17<br/>
 	 				</div>
 	      </div>
 
@@ -287,7 +287,7 @@ function email($to, $from_mail, $from_name, $subject, $message){
 				  </div>
 				</div>
 				</div>
-				<div class="positionsheld"> Positions we've held and what we've done:</div>
+				<div class="positionsheld"> Positions/Projects:</div>
 				<div class="row center">
 					<div class="col-md-6">
 						<ul>
@@ -397,7 +397,7 @@ function email($to, $from_mail, $from_name, $subject, $message){
 				<img id="float-right" src="images/luke.png" alt="Luke Walsh"/>
 				Luke Walsh<br/>
 				School: CAS '16<br/><br/>
-				My involvement in Admissions, CAS Deans Hosts, FY101, and Orientation have afforded me the opportunity to meet and work with so many of these great people and I have gained so much from these relationships. TrueBU's emphasis on cultivating a stronger and more meaningful sense of community on campus is something that means a lot to me and I feel confident in their abilities to achieve this. Having personally known Andrew Cho for three years I can attest to his incredible work ethic and his utmost commitment to enhancing the student life on campus. His track record in RHA of affecting change makes me confident in his  abilities to to lead our Student Government and hope that everyone decides to vote TrueBU on their StudentLink!				<br/>But Andrew makes the biggest impact by simply being himself, a leader by example. I support True BU because I believe that Andrew's leadership and sustainable vision will build community and empower students to be change makers--exactly what BU needs to thrive.			</div>
+				My involvement in Admissions, CAS Deans Hosts, FY101, and Orientation have afforded me the opportunity to meet and work with so many of these great people and I have gained so much from these relationships. TrueBU's emphasis on cultivating a stronger and more meaningful sense of community on campus is something that means a lot to me and I feel confident in their abilities to achieve this. Having personally known Andrew Cho for three years I can attest to his incredible work ethic and his utmost commitment to enhancing the student life on campus. His track record in RHA of affecting change makes me confident in his  abilities to to lead our Student Government and hope that everyone decides to vote TrueBU on their StudentLink!</div>
 		</div>
 		<div class="row endorsement-section">
 			<div class="col-md-4">
