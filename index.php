@@ -106,6 +106,23 @@ function email($to, $from_mail, $from_name, $subject, $message){
 	 					President<br/>
 	 					CAS '16<br/>
 	 				</div>
+	 				<div class="slate-accomplishments row">
+	 				  <div class="col-md-6">
+		 					Projects and Positions:<br/>
+		 					Warren Towers Patio Project<br/>
+							Warren Towers RHA President 2012-2014<br/>
+							OEC RHA President<br/>
+							VSA Culture Show 2012-2015<br/>
+						</div>
+	 				  <div class="col-md-6">
+							Warren Towers Senator 2012-2013<br/>
+							Environmental Affairs Department Associate Director 2012-2014<br/>
+							No Waste November 2012<br/>
+							Environmental Coalition Leader 2013-2014<br/>
+							FYStaff 2013<br/>
+							Frontier Group Public Policy Think Tank Internship<br/>
+						</div>
+	 				</div>
 	      </div>
 
 	      <!-- Andrew Modal -->
@@ -347,20 +364,21 @@ function email($to, $from_mail, $from_name, $subject, $message){
 	<div class="container">
 		<h2>Endorsements</h2>
 			<div class="row endorsement-section">
-			<div class="col-md-4">
-				<img src="images/justina.jpg" alt="Justina Choi"/>
+			<div class="col-md-3">
+				<img class="align-middle" src="images/justina.jpg" alt="Justina Choi"/>
 			</div>
-			<div class="col-md-8">
+			<div class="col-md-9">
 				Justina Choi<br/>Hawaii Cultural Association Co-President<br/>
 				School: CAS '15<br/>
 				<br/>
 				Hawaii Cultural Association supports TrueBU because of their support of student organizations. Student leaders are the most dedicated people at BU and TrueBU is committed to listening to our concerns. Student organizations need an ally on campus to advocate for our initiatives and suggestions to improve SAO and AB.		</div>
+		</div>
 		<div class="endorsement-section">
 			<div class="endorsement-text-right">
-				<img src="images/luke.png" alt="Luke Walsh"/>
+				<img id="float-right" src="images/luke.png" alt="Luke Walsh"/>
 				Luke Walsh<br/>
 				School: CAS '16<br/><br/>
-				My involvement in Admissions, CAS Deans Hosts, FY101, and Orientation have afforded me the opportunity to meet and work with so many of these great people and I have gained so much from these relationships. TrueBU's emphasis on cultivating a stronger and more meaningful sense of community on campus is something that means a lot to me and I feel confident in their abilities to achieve this. Having personally known Andrew Cho for three years I can attest to his incredible work ethic and his utmost commitment to enhancing the student life on campus. His track record in RHA of affecting change makes me confident in his  abilities to to lead our Student Government and hope that everyone decides to vote TrueBU on their StudentLink!				<br/>But Andrew makes the biggest impact by simply being himself, a leader by example. I support True BU because I believe that Andrew's leadership and sustainable vision will build community and empower students to be change makers--exactly what BU needs to thrive."			</div>
+				My involvement in Admissions, CAS Deans Hosts, FY101, and Orientation have afforded me the opportunity to meet and work with so many of these great people and I have gained so much from these relationships. TrueBU's emphasis on cultivating a stronger and more meaningful sense of community on campus is something that means a lot to me and I feel confident in their abilities to achieve this. Having personally known Andrew Cho for three years I can attest to his incredible work ethic and his utmost commitment to enhancing the student life on campus. His track record in RHA of affecting change makes me confident in his  abilities to to lead our Student Government and hope that everyone decides to vote TrueBU on their StudentLink!				<br/>But Andrew makes the biggest impact by simply being himself, a leader by example. I support True BU because I believe that Andrew's leadership and sustainable vision will build community and empower students to be change makers--exactly what BU needs to thrive.			</div>
 		</div>
 		<div class="row endorsement-section">
 			<div class="col-md-4">
@@ -370,15 +388,15 @@ function email($to, $from_mail, $from_name, $subject, $message){
 				Carson Robers<br/>
 				School: CAS/GRS '16<br/>
 				<br/>
-				"Despite how cliche it is you can truly be you at BU. Pursuing multiple degrees, leading and being inspired by our environmental community, and studying abroad in Quito, Ecuador has allowed me to find myself. From my work with Andrew Cho on many of Students for a Just and Stable Future's initiatives, I know that True BU is the type of leadership that we need to make our campus even more vibrant." 			</div>
+				Despite how cliche it is you can truly be you at BU. Pursuing multiple degrees, leading and being inspired by our environmental community, and studying abroad in Quito, Ecuador has allowed me to find myself. From my work with Andrew Cho on many of Students for a Just and Stable Future's initiatives, I know that True BU is the type of leadership that we need to make our campus even more vibrant. 			</div>
 		</div>
 		<div class="endorsement-section">
 			<div class="endorsement-text-right">
-				<img id="lindsey1" src="images/lindsey.png" alt="Lindsey Chew"/>
+				<img id="float-right" src="images/lindsey.png" alt="Lindsey Chew"/>
 				Lindsey Chew<br/>
 				School: SMG '16<br/><br/>
 				As head of the Environmental Coalition and President of RHA, Andrew has helped catalyze sustainable action at BU and beyond. These groups are usually seen as having different goals, but Andrew always finds a way to bridge the two--including innovations in sustainable RHA events, a rooftop garden for Warren towers and more.
-				<br/>But Andrew makes the biggest impact by simply being himself, a leader by example. I support True BU because I believe that Andrew's leadership and sustainable vision will build community and empower students to be change makers--exactly what BU needs to thrive."			</div>
+				<br/>But Andrew makes the biggest impact by simply being himself, a leader by example. I support True BU because I believe that Andrew's leadership and sustainable vision will build community and empower students to be change makers--exactly what BU needs to thrive.			</div>
 			</div>
 			<div id="moreendorsementssoon">More endorsements coming soon!</div>
 </div>

@@ -193,7 +193,7 @@ iframe{
 .page-section#endorsements {
 /*  background: url(../images/endorsements.jpg) top center no-repeat;
 */
-  color: darkgray;
+  color: #575757;
   background-color: white;
   padding: 50px 0 0px 0;
   min-height: 650px;
@@ -204,9 +204,17 @@ iframe{
   display: inline-block;
 }
 
-#lindsey1{
+#float-right{
   float: right;
   margin-left: 20px;
+}
+
+.endorsement-section>.col-md-3{
+  width: 200px;
+}
+
+.align-middle{
+  margin: 0 auto;
 }
 
 .endorsement-section{
