@@ -346,6 +346,22 @@ function email($to, $from_mail, $from_name, $subject, $message){
 <div id="endorsements" class="page-section">
 	<div class="container">
 		<h2>Endorsements</h2>
+			<div class="row endorsement-section">
+			<div class="col-md-4">
+				<img src="images/justina.jpg" alt="Justina Choi"/>
+			</div>
+			<div class="col-md-8">
+				Justina Choi<br/>Hawaii Cultural Association Co-President<br/>
+				School: CAS '15<br/>
+				<br/>
+				Hawaii Cultural Association supports TrueBU because of their support of student organizations. Student leaders are the most dedicated people at BU and TrueBU is committed to listening to our concerns. Student organizations need an ally on campus to advocate for our initiatives and suggestions to improve SAO and AB.		</div>
+		<div class="endorsement-section">
+			<div class="endorsement-text-right">
+				<img src="images/luke.png" alt="Luke Walsh"/>
+				Luke Walsh<br/>
+				School: CAS '16<br/><br/>
+				My involvement in Admissions, CAS Deans Hosts, FY101, and Orientation have afforded me the opportunity to meet and work with so many of these great people and I have gained so much from these relationships. TrueBU's emphasis on cultivating a stronger and more meaningful sense of community on campus is something that means a lot to me and I feel confident in their abilities to achieve this. Having personally known Andrew Cho for three years I can attest to his incredible work ethic and his utmost commitment to enhancing the student life on campus. His track record in RHA of affecting change makes me confident in his  abilities to to lead our Student Government and hope that everyone decides to vote TrueBU on their StudentLink!				<br/>But Andrew makes the biggest impact by simply being himself, a leader by example. I support True BU because I believe that Andrew's leadership and sustainable vision will build community and empower students to be change makers--exactly what BU needs to thrive."			</div>
+		</div>
 		<div class="row endorsement-section">
 			<div class="col-md-4">
 				<img src="images/carson.png" alt="Carson Robers"/>
@@ -363,8 +379,6 @@ function email($to, $from_mail, $from_name, $subject, $message){
 				School: SMG '16<br/><br/>
 				As head of the Environmental Coalition and President of RHA, Andrew has helped catalyze sustainable action at BU and beyond. These groups are usually seen as having different goals, but Andrew always finds a way to bridge the two--including innovations in sustainable RHA events, a rooftop garden for Warren towers and more.
 				<br/>But Andrew makes the biggest impact by simply being himself, a leader by example. I support True BU because I believe that Andrew's leadership and sustainable vision will build community and empower students to be change makers--exactly what BU needs to thrive."			</div>
-			<div class="lindseyimage">
-			</div>
 			</div>
 			<div id="moreendorsementssoon">More endorsements coming soon!</div>
 </div>
@@ -388,7 +402,7 @@ function email($to, $from_mail, $from_name, $subject, $message){
 					<a href="//twitter.com/truebostonu" target="_blank"><img src="images/twitter.png" alt="Twitter"/ id="fb"></a>
 					<a href="//instagram.com/truebu" target="_blank"><img src="images/instagram.png" alt="Instagram" id="ig"/></a>
 				</div>
-				<div id="jointeamwrapper"><a href="//https://docs.google.com/forms/d/1ZiKTcL3XC9EymJbo549O0_N9ZsqfjKeUYIu0YurqZws/viewform?c=0&w=1" target="_blank"><div id="jointheteam">Staff for True BU</div></a></div>
+				<div id="jointeamwrapper"><a href="//goo.gl/forms/O14DCnjfpm" target="_blank"><div id="jointheteam">Staff for True BU</div></a></div>
 			</div>
 			</div>
 			<div class="col-md-6">
