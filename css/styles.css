@@ -41,10 +41,34 @@ body {
   color: #fff;
   margin: 0 0 30px;
 }
+
+.platformrow{
+  margin: 0 5% 0 5%;
+}
+
+.col-md-12>h3{
+  text-align: center;
+  font-size: 40px;
+}
+
+.col-md-12>h4{
+  text-align: center;
+  text-decoration: underline;
+}
+
+.col-md-12>ul>li{
+  font-family: 'Merriweather', serif;
+  margin-left: 20px;
+}
+
+.col-md-12{
+  font-family: 'Merriweather', serif;
+}
+
 .page-section#endorsements h2 {
   font-size: 3em;
   font-weight: 900;
-  color: darkgray;
+  color: #008CD3;
   margin: 0 0 30px;
 }
 
@@ -65,6 +89,7 @@ body {
   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.20);
   border-radius: 10px;
   height: 350px;
+  font-family: 'Merriweather', serif;
 }
 
 .intro>.container{
@@ -101,13 +126,8 @@ body {
 }
 
 .page-section#slate {
-  background: url(../images/background.png) bottom center no-repeat;
-  background-size:cover;
-}
-
-.page-section#slate {
 /*  background: url(../images/abouttrubu.jpg) bottom center no-repeat;
-*/    background-color: #222;
+*/    background-color: white;
   min-height: 675px;
 }
 
@@ -119,6 +139,7 @@ body {
 .slate-text{
   text-align: center;
   font-size: 24px;
+  color: darkgray;
 }
 
 .col-md-3>a>img{
@@ -162,6 +183,11 @@ a>img:hover {
   font-weight: 200;
 }
 
+#platform2015{
+  color: #008CD3;
+  text-align: center;
+}
+
 .bullet-points li{
   font-size: 20px;
   font-weight: 400;
@@ -200,6 +226,7 @@ iframe{
   background-color: white;
   padding: 50px 0 0px 0;
   min-height: 650px;
+  font-family: 'Merriweather', serif;
 }
 
 .endorsement-text-right{
@@ -216,10 +243,23 @@ iframe{
   width: 200px;
 }
 
+.meriweather{
+  font-family: 'Merriweather', serif;
+}
+
+.center{
+  margin-top: 30px;
+}
+
 .positionsheld{
   text-align: center;
   font-size: 36px;
   margin: 10px 0 30px 0;
+  color: #008CD3;
+}
+
+#endorsementsheading{
+  color: #008CD3;
 }
 
 .center{
@@ -392,10 +432,32 @@ img {
 
 .copyright{
   text-align: center;
-  margin: 3% 0 0 0;
+  font-weight: 100;
+  font-size: 36px;
+  margin: 70px 0 0 0;
+}
+
+#policy{
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+}
+
+#meetslate{
+  color: #008CD3;
+  text-shadow: none;
+}
+
+.col-md-6>ul>li{
+  font-family: 'Merriweather', serif;
+  color: darkgray;
+  font-size: 20px;
 }
 
 a:visited{color:#000 !important;}
+
+#policy:visited{color:#fff !important;}
 
 .footer{
   text-align: center;
@@ -433,10 +495,10 @@ a:visited{color:#000 !important;}
   margin: 10px auto 0 auto;
 }
 
-@media (min-width: 992px){
-/*    .caption{
-      height: 300px;
-    }*/
+@media (min-width: 1200px){
+    .bullet-points li{
+      font-size: 24px;
+    }
 }
 
 @media (max-width: 991px) {

@@ -50,7 +50,7 @@ function email($to, $from_mail, $from_name, $subject, $message){
 	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Merriweather:400,700' rel='stylesheet' type='text/css'>
 	<link rel="icon" type="image/png" href="images/favicon.png" />
 </head>
 
@@ -71,9 +71,9 @@ function email($to, $from_mail, $from_name, $subject, $message){
 	        <div id="main-nav" class="collapse navbar-collapse">
 	            <ul class="nav navbar-nav">
 		            <li><a href="#" class="scroll-link" data-id="slate">Meet the Slate</a></li>
-					<li><a href="#" class="scroll-link" data-id="abouttrubu">Our Platform</a></li>
-<!-- 					<li><a href="#" class="scroll-link" data-id="videos">Videos</a></li>
- -->					<li><a href="#" class="scroll-link" data-id="endorsements">Endorsements</a></li>
+					<li><a href="#" class="scroll-link" data-id="abouttrubu">Platform</a></li>
+					<li><a href="#" class="scroll-link" data-id="policypage">Policy</a></li>
+					<li><a href="#" class="scroll-link" data-id="endorsements">Endorsements</a></li>
 					<li><a href="#" class="scroll-link" data-id="contactus">Join the Team!</a></li>
 	            </ul>
 	        </div>
@@ -96,7 +96,7 @@ function email($to, $from_mail, $from_name, $subject, $message){
 
 <div id="slate" class="page-section">
 	<div class="container">
-		<h2>Meet the Slate</h2>
+		<h2 id="meetslate">Meet the Slate</h2>
 		  <div class="row">
 	      <div class="col-md-3">
 	      	<a data-toggle="modal" data-target="#andrewModal">
@@ -287,7 +287,6 @@ function email($to, $from_mail, $from_name, $subject, $message){
 				  </div>
 				</div>
 				</div>
-				<div class="positionsheld"> Positions/Projects:</div>
 				<div class="row center">
 					<div class="col-md-6">
 						<ul>
@@ -331,93 +330,278 @@ function email($to, $from_mail, $from_name, $subject, $message){
 	<div class="container">
 		<h2>Our Bullet Point Platform</h2>
 		<div class="row bullet-points">
-		   <div class="col-md-4">
+				<div class="col-md-4">
 			   <div class="caption">
-			   	<h3>Vision Means:</h3>
-		   		<ul>
-		   			<li>Building student power to gain tuition transparency</li>
-						<li>Leading sustainability movements locally and globally</li>
-		   		</ul>
-		   	</div>
+				   	<h3>Community Means:</h3>
+			   		<ul>
+			   			<li class="meriweather">Advocating for increased mental health support</li>
+							<li class="meriweather">Spearheading education on multicultural sensitivity</li>
+			   		</ul>
+			   	</div>
 		   </div>
 		   <div class="col-md-4">
 			   <div class="caption">
 			   	<h3>Empowerment Means:</h3>
 		   		<ul>
-		   			<li>Partnering with student groups to accomplish their initiatives</li>
-						<li>Expanding free expression boards and readily available meeting spaces</li>
+		   			<li class="meriweather">Partnering with student groups to accomplish their initiatives</li>
+						<li class="meriweather">Expanding free expression boards and readily available meeting spaces</li>
 		   		</ul>
 		   		</div>
 		   </div>
 		   <div class="col-md-4">
 			   <div class="caption">
-				   	<h3>Community Means:</h3>
-			   		<ul>
-			   			<li>Advocating for increased mental health support</li>
-							<li>Spearheading education on multicultural sensitivity</li>
-			   		</ul>
-			   	</div>
+			   	<h3>Vision Means:</h3>
+		   		<ul>
+		   			<li class="meriweather">Building student power to gain tuition transparency</li>
+						<li class="meriweather">Leading sustainability movements locally and globally</li>
+		   		</ul>
+		   	</div>
 		   </div>
     </div>
 	</div>
 	<!--/.container-->
-	<div class="quote">
+<!-- 	<div class="quote">
 	<div class="container">
-		<em>Vote for what is TRUE to your University, your Student Government, your voice.</em>
+		<a href="policy.pdf" id="policy" target="_blank"><div id="jointheteam">View Our Detailed Platform</div></a>
 	</div>
-	</div>
+	</div> -->
 </div>
 <!--/#abouttrubu-->
 
-<!-- <div id="videos" class="page-section">
+<div id="policypage" class="page-section">
 	<div class="container">
-		<h2>Videos</h2>
-		<div class="video-frame">
-			<iframe id="video1" src="https://player.vimeo.com/video/89961835" width=80% height="500px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		<div class="row platformrow">
+			<div class="col-md-12">
+				<h2 id="platform2015">True BU Policy 2015</h2>
+				<em>Andrew, Mel, Marwa, and Kim have compiled this list of policies that we believe resonate with Boston University students. We hope that our achievements and involvements in the organizations invested in these issues prove to you our sincerity and commitment to these policies. We have individually found ourselves running together under True BU because we believe Student Government can be the empowering tool for students to move forward on these issues. Nothing in this policy we claim to implement on our own; rather, it will be through genuine partnerships and supportive collaboration. We invite you to join True BU in contributing to a legacy of student involvement and TRUE change at Boston University.</em>
+				<h3>MULTICULTURAL MOVEMENT</h3>
+				<h4>Increasing Multicultural Sensitivity</h4>
+				President Brown was subpoenaed to a hearing on diversity in higher education
+				by the Boston City Council for his failure to appear at a hearing on employee and
+				student diversity at local colleges. It is clear that this is an issue on our campus
+				and must be continually addressed.  <strong>True BU will rally the current efforts by
+				organizations represented in the Center for Gender, Sexuality, and
+				Activism (CGSA) and the Boston University Culture Council to create
+				multicultural education programs with the Office of Orientation and the
+				Office of the Dean of Students.</strong><br/>
+
+				<h4>Career Support for International Students</h4>
+				20.6 percent of the study body is comprised of international students.  Visa
+				requirements, and extensive paperwork all stand in the way of international
+				students acquiring work experience they need to become well-rounded
+				graduates. To counter this TrueBU will work alongside the Center for Career
+				Development to <strong>create programs specifically addressing international
+				students' needs.</strong> In addition, TrueBU will expand resources for international
+				students so that they can easily navigate their complicated tax forms.
+
+				<h3>SHATTERING STIGMA</h3>
+				<h4>Sexual Assault Prevention: Shattering Stigma & BU's 16,000 Strong</h4>
+				Because we are committed to working with student groups, we will partner with
+				members of the Center for Gender, Sexuality, and Activism and Greek Life to
+				lead the dialogue on sexual assault. We want to <strong>expand the reach of "safer
+				space" culture</strong> to large organizations like fraternities and sororities and foster an
+				open dialogue about sexual assault. We will foster dialogue between Greek
+				Life and clubs by creating workshops to offer advice about
+				creating organizational structure with groups of students. Each month, we will
+				select a new stigma focus, approved by Senate. The workshops would also
+				function to demystify Greek life and build diversified networks within the BU
+				community.<br/><br/>
+				However, we want to do more than just talk about the problem-<strong>we want to
+				bring awareness to action and go further than a pledge.</strong>  We will implement a
+				pilot GreenDot training to teach students how to intervene and speak about
+				sexual assault. The CDC-funded trainings demonstrated a 50 percent reduction
+				in sexual violence perpetuation in high schools.<br/><br/>
+				We will continue and expand the 16,000 Strong campaign to incorporate the It
+				Happens Here Project (http://www.ihhproject.org), in which sexual assault
+				survivors anonymously submit their stories and to a panel of students reads them
+				and shares them on the website. <strong>Our projects seek to end the stigma
+				against talking about rape culture</strong> and the stigma that manifests itself in victim
+				shaming.<br/>
+
+				<h3>HEIGHTENING HEALTH</h3>
+				<h4>Mental Health Support Through the Student Support Network</h4>
+				By collaborating with Behavioral Medicine, we will <strong>reinstate the Student
+				Support Network</strong> and train students on how to recognize the warning signs
+				associated with depression and other serious mental health concerns. In
+				addition, TrueBU and Behavioral Medicine will work together to <strong>provide an
+				outlet for students to express themselves</strong> via BU Secret. Postcards will be
+				displayed in public places around campus.  Because we understand the gravity
+				of this issue, we have already begun work on this project.<br/>
+
+				<h4>Enhanced Resources for the Center for Gender, Sexuality and Activism</h4>
+				We will allocate a fixed percentage of the Student Government budget to be
+				allotted to this student-funded space. Student Government should support this
+				student space that functions as resource center for the university's most
+				marginalized students, which includes and is not limited to LGBTQ students,
+				people of color, and women. CGSA currently runs on volunteers and is allocated
+				funds as a student club. However, in reality, the space known as the CGSA is a
+				resource center for the LGBTQ community as well as student activism and women.<br/>
+
+				<h3>CREATIVE COLLABORATION</h3>
+				<h4>Innovation Grant Program, Green Fund & Arts Commission</h4>
+				Student Government has an estimated $60,000 in its control, allocated by the
+				undergraduate student fee. Although less than 1% of our tuition goes directly
+				into the hands of the undergraduate students, <strong>we must not forget the monetary
+				influence that we have.</strong> Our grant program will make Student Government
+				funds available to student initiatives on an application basis, subject to approval
+				by a designated committee. We have divided the budget into 5 strategic sections:
+				<br/><br/><ul>
+				<li>Innovation Grant Program (see details below)</li>
+				<li>Internal Affairs of Student Government</li>
+				<li>Student Government Co-Sponsored Events</li>
+				<li>Student Group Support Funds</li>
+				<li>Orientation Funds</li>
+				</ul><br/>
+				We will start implementing the Innovation Grant Program immediately in the fall
+				of 2015, as we have already started discussing details with key administrators
+				and students and will continue to over the summer. The grant program will
+				change the way the current Student Government budget is allocated. <strong>There will
+				be a specific permanent fund allocated for student initiatives that will further
+				Boston University's presence in the fields of technology and the arts.</strong><br/>
+
+				<h4>Student Group Support System</h4>
+				True BU will <strong>support and foster student group development and existence</strong>
+				on campus in many forms. When the Student Involvement Board rejects a
+				student group we want to offer our resources to get them off the ground. This
+				includes reserving spaces, opening our office to them, and aiding with publicity.
+				For existing student groups, <strong>we will increase the number of free expression
+				boards for event visibility, and create and publicize readily available
+				meeting spaces.</strong>  Spaces such as the conference rooms in the GSU should be
+				available when not in use.  While SAO works tirelessly to support student
+				activities, <strong>we know firsthand the obstacles that student groups face.</strong> Any
+				needs that SAO cannot deliver, True BU Student Government will serve as a
+				collective voice to advocate for student groups. This entails pushing for more
+				storage space for theatre groups, increasing the travel fund, and ensuring
+				budgets for smaller or less active groups.<br/>
+
+				<h4>RHA Partnership to Enhance Quality of Life</h4>
+				Student Government will seek to be fully in touch with daily quality of life issues
+				by increasing partnership with RHA in addressing issues such as safety, smoking
+				concerns, and affairs for recycling and heating concerns.<br/>
+
+				<h3>TUITION TRANSPARENCY</h3>
+				<h4>Advocacy through the Student Trustee Position</h4>
+				We will begin dialogue with the Dean of Students and President Brown concerning
+				the necessity for a <strong>student representative in investment decisions</strong> given the
+				fact that the student body is a large stakeholder. Based off of these conversations,
+				we will create criteria for students interested in this position and create an
+				application form for a year-long commitment.  With tuition slated to go up a
+				whopping 3.7% and many questioning whether or not college is still 'worth it', we
+				as students must have a say in tuition decisions. In recent correspondence with
+				President Brown, competitive salaries were mentioned as reason for tuition rise,
+				but it seems that these competitive salaries are given to upper tier administrators
+				and not professors.<br/>
+
+				<h4>Tuition Transparency Workshop</h4>
+				By hosting a series of workshops, we will create a bridge between students who
+				are bearing the burden of expanding the university and the administrators who
+				ultimately control the costs.  In addition to advertising this to students, we will
+				encourage faculty to voice their opinions on the necessity of an increase in
+				tuition. <strong>We will create a space for students to understand the reasons and
+				interact directly with decision makers.</strong> The rising cost of tuition with little to no
+				explanation has alarmed not just students but also alumni, parents and faculty of
+				the BU community.<br/>
+
+				<h3>STRENGHTENING SUSTAINABILITY</h3>
+				<h4>Bike Safety</h4>
+				We congratulate BU Bikes on their advocacy for CycleTrack (a protected bike
+				lane) for all segments of Commonwealth Avenue. The next step is to <strong>build bike
+				culture at BU through facilitating education</strong> for bikers and pedestrians. by
+				funding and advocating for covered bike shelters in West Campus and potential
+				other spots on campus. We will advocate for <strong>more appropriate shelter for
+				bikes.</strong> With limited transportation options on our large campus, it is important
+				that low-cost options are available and safe for students.<br/>
+
+				<h4>Restore the CAS Greenhouse</h4>
+				It is unacceptable that the little known CAS Greenhouse has been defunct due to
+				neglect from the administration to repair broken water pipes.  We will <strong>firmly
+				advocate for university funds to be appropriated to the CAS Greenhouse to
+				be restored</strong> in order to restore this amazing resource for the environmental
+				community on our urban campus.  The Environmental Student Organization has
+				already picked up this issue but still needs support.  We are committed to
+				sustainability on our campus, as well as empowering student groups with Student
+				Government resources.  We also have experience-Andrew and Kim were
+				active members of OGC in the glory days of a functioning greenhouse, and know
+				exactly the obstacles they face.<br/>
+
+				<h4>Support Divest BU from Fossil Fuel campaign</h4>
+				We aim to support this group's effort by endorsing their referendum question as
+				well as offer follow up after the 2015 Student Government elections by lobbying
+				administration and the Board of Trustees to <strong>commit to fossil fuel
+				divestment.</strong> Other institutions across the world are working towards this goal
+				with impressive success. Investment in low-carbon energy amounted to $257
+				billion in 2011, and continues to rise. Sustainable industries like solar and wind
+				energy production are becoming increasingly attractive investments. BU's
+				financial growth is not incompatible with reducing its role in climate change.
+				True BU believes that the university's large-scale actions should reflect our educational values.<br/>
+
+				<h3>STRUCTURAL SOLUTIONS</h3>
+				<h4>Communications Reform</h4>
+				Forming a <strong>strong communications department</strong> will ensure that the Student
+				Government website is always up-to-date and clear about resources. This
+				includes providing contact resources and publishing updates on initiatives and
+				events. True BU Student Government will have a physical presence in GSU
+				every week, provide a State of the University once a semester, and equip
+				Senators for reaching out with a dedicated budget. True BU promises to
+				implement <strong>increased Financial Transparency</strong> through automated alerts of
+				when the budget money has been spent. The Student Government website will
+				be updated weekly with new budget details, proposals, and Senate decisions.<br/>
+
+				<h4>Senator Training</h4>
+				Our experience in the Residence Hall Association has taught us the importance
+				of building up the community feel of an organization. We will equip them with the
+				tools to reach their constituents, as well as <strong>commit to establishing a culture at
+				Senate that is constructive and empowering.</strong><br/>
+
+				<h4>Vice President of Internal Affairs as Senate Historian</h4>
+				TrueBU will also give the VPIA the responsibility of writing a history of the
+				successes, failures, and challenges to Student Government initiatives and why
+				they are occurring. We should not have to reinvent the wheel every year.
+			</div>
 		</div>
 	</div>
-</div> -->
+</div>
 <!--/#videos-->
 
 <div id="endorsements" class="page-section">
 	<div class="container">
-		<h2>Endorsements</h2>
+		<h2 id="endorsementsheading">Endorsements</h2>
 			<div class="row endorsement-section">
 			<div class="col-md-3">
 				<img class="align-middle" src="images/justina.jpg" alt="Justina Choi"/>
 			</div>
-			<div class="col-md-9">
+			<div class="col-md-9 meriweather">
 				Justina Choi<br/>Hawaii Cultural Association Co-President<br/>
 				School: CAS '15<br/>
 				<br/>
 				Hawaii Cultural Association supports TrueBU because of their support of student organizations. Student leaders are the most dedicated people at BU and TrueBU is committed to listening to our concerns. Student organizations need an ally on campus to advocate for our initiatives and suggestions to improve SAO and AB.		</div>
 		</div>
 		<div class="endorsement-section">
-			<div class="endorsement-text-right">
+			<div class="endorsement-text-right meriweather">
 				<img id="float-right" src="images/luke.png" alt="Luke Walsh"/>
 				Luke Walsh<br/>
 				School: CAS '16<br/><br/>
 				My involvement in Admissions, CAS Deans Hosts, FY101, and Orientation have afforded me the opportunity to meet and work with so many of these great people and I have gained so much from these relationships. TrueBU's emphasis on cultivating a stronger and more meaningful sense of community on campus is something that means a lot to me and I feel confident in their abilities to achieve this. Having personally known Andrew Cho for three years I can attest to his incredible work ethic and his utmost commitment to enhancing the student life on campus. His track record in RHA of affecting change makes me confident in his  abilities to to lead our Student Government and hope that everyone decides to vote TrueBU on their StudentLink!</div>
 		</div>
 		<div class="row endorsement-section">
-			<div class="col-md-4">
+			<div class="col-md-3">
 				<img src="images/carson.png" alt="Carson Robers"/>
 			</div>
-			<div class="col-md-8">
+			<div class="col-md-9 meriweather">
 				Carson Robers<br/>
 				School: CAS/GRS '16<br/>
 				<br/>
 				Despite how cliche it is you can truly be you at BU. Pursuing multiple degrees, leading and being inspired by our environmental community, and studying abroad in Quito, Ecuador has allowed me to find myself. From my work with Andrew Cho on many of Students for a Just and Stable Future's initiatives, I know that True BU is the type of leadership that we need to make our campus even more vibrant. 			</div>
 		</div>
 		<div class="endorsement-section">
-			<div class="endorsement-text-right">
+			<div class="endorsement-text-right meriweather">
 				<img id="float-right" src="images/lindsey.png" alt="Lindsey Chew"/>
 				Lindsey Chew<br/>
 				School: SMG '16<br/><br/>
 				As head of the Environmental Coalition and President of RHA, Andrew has helped catalyze sustainable action at BU and beyond. These groups are usually seen as having different goals, but Andrew always finds a way to bridge the two--including innovations in sustainable RHA events, a rooftop garden for Warren towers and more.
 				<br/>But Andrew makes the biggest impact by simply being himself, a leader by example. I support True BU because I believe that Andrew's leadership and sustainable vision will build community and empower students to be change makers--exactly what BU needs to thrive.			</div>
 			</div>
-			<div id="moreendorsementssoon">More endorsements coming soon!</div>
+			<div id="moreendorsementssoon" class="meriweather">More endorsements coming soon!</div>
 </div>
 </div>
 <!--/#endorsements-->
@@ -470,42 +654,12 @@ function email($to, $from_mail, $from_name, $subject, $message){
 				</div>
 			</div>
 		</div>
-			<!-- div id="supporters" class="row">
-				<div class="col-md-3">
-					Trinidad Mowen - Some Position<br/>
-					Marine Straka<br/>
-					Shirley Obregon<br/>
-					Angele Schoenberger<br/>
-					Otto Greenburg<br/>
-				</div>
-				<div class="col-md-3">
-					Trinidad Mowen - Some Position<br/>
-					Marine Straka<br/>
-					Shirley Obregon<br/>
-					Angele Schoenberger<br/>
-					Otto Greenburg<br/>
-				</div>
-				<div class="col-md-3">
-					Trinidad Mowen - Some Position<br/>
-					Marine Straka<br/>
-					Shirley Obregon<br/>
-					Angele Schoenberger<br/>
-					Otto Greenburg<br/>
-				</div>
-				<div class="col-md-3">
-					Trinidad Mowen - Some Position<br/>
-					Marine Straka<br/>
-					Shirley Obregon<br/>
-					Angele Schoenberger<br/>
-					Otto Greenburg<br/>
-				</div>
-			</div> -->
 		</div>
 	</div>
 	<!--/.container-->
 	<div class="footer">
 	<div class="container">
-		<div class="copyright">&copy; 2015 True Bu. All Rights Reserved.</div>
+		<div class="copyright"><!-- &copy; 2015 True Bu. All Rights Reserved. -->Vote for what is TRUE to your University, your Student Government, your voice.</div>
 	</div>
 	</div>
 <!--/#contactus-->
