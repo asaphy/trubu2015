@@ -619,9 +619,9 @@ function email($to, $from_mail, $from_name, $subject, $message){
 			<div id="updates">
 				<span class="updatetitles">Join the team! </span><br/><br/>
 				<div class="social-media">
-					<a href="//facebook.com/truebostonu" target="_blank"><img src="images/fb.png" alt="Facebook"/ id="fb"></a>
-					<a href="//twitter.com/truebostonu" target="_blank"><img src="images/twitter.png" alt="Twitter"/ id="fb"></a>
-					<a href="//instagram.com/truebu" target="_blank"><img src="images/instagram.png" alt="Instagram" id="ig"/></a>
+					<a href="//facebook.com/truebu2015" target="_blank"><img src="images/fb.png" alt="Facebook"/ id="fb"></a>
+					<a href="//twitter.com/truebu2015" target="_blank"><img src="images/twitter.png" alt="Twitter"/ id="fb"></a>
+					<a href="//instagram.com/truebu2015" target="_blank"><img src="images/instagram.png" alt="Instagram" id="ig"/></a>
 				</div>
 				<div id="jointeamwrapper"><a href="//goo.gl/forms/O14DCnjfpm" target="_blank"><div id="jointheteam">Staff for True BU</div></a></div>
 			</div>

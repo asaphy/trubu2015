@@ -101,14 +101,14 @@ body {
 .intro>.container>h1{
   margin: 0;
   font-size: 108px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Amatic SC', sans-serif;
 }
 
 .intro>.container>h3{
   margin: -20px 0 0 10px;
   color: white;
   font-size: 40px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Amatic SC', sans-serif;
   font-weight: 100;
 }
 
@@ -140,6 +140,7 @@ body {
   text-align: center;
   font-size: 24px;
   color: darkgray;
+  font-weight: 400;
 }
 
 .col-md-3>a>img{
